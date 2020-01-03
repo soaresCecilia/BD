@@ -28,21 +28,20 @@ INSERT INTO CODIGO_POSTAL VALUES("4990-038", "Ponte de Lima");
 INSERT INTO Modalidade VALUES(1, "lançamento", "lançamento do martelo");
 INSERT INTO Modalidade VALUES(2, "lançamento", "lançamento do disco");
 INSERT INTO Modalidade VALUES(3, "lançamento", "lançamento do peso");
-INSERT INTO Modalidade VALUES(4, "lançamento", "lançamento do peso");
-INSERT INTO Modalidade VALUES(5, "corrida de fundo", "maratona");
-INSERT INTO Modalidade VALUES(6, "corrida de fundo", "10000 metros");
-INSERT INTO Modalidade VALUES(7, "corrida de pista", "100 metros");
-INSERT INTO Modalidade VALUES(8, "corrida de pista", "400 metros");
-INSERT INTO Modalidade VALUES(9, "corrida de pista", "obstaculos");
-INSERT INTO Modalidade VALUES(10, "salto", "triplo salto");
-INSERT INTO Modalidade VALUES(11, "salto", "salto com vara");
-INSERT INTO Modalidade VALUES(12, "decaptlo", "masculina");
-INSERT INTO Modalidade VALUES(13, "heptatlo", "feminina");
+INSERT INTO Modalidade VALUES(4, "corrida de fundo", "maratona");
+INSERT INTO Modalidade VALUES(5, "corrida de fundo", "10000 metros");
+INSERT INTO Modalidade VALUES(6, "corrida de pista", "100 metros");
+INSERT INTO Modalidade VALUES(7, "corrida de pista", "400 metros");
+INSERT INTO Modalidade VALUES(8, "corrida de pista", "obstaculos");
+INSERT INTO Modalidade VALUES(9, "salto", "triplo salto");
+INSERT INTO Modalidade VALUES(10, "salto", "salto com vara");
+INSERT INTO Modalidade VALUES(11, "decaptlo", "masculina");
+INSERT INTO Modalidade VALUES(12, "heptatlo", "feminina");
 
 INSERT INTO Atleta VALUES(1, "João Silva", "Rua da Arcela, n.º 15", "4800-010", 230485912, DATE('1989-05-12'), 2);
 INSERT INTO Atleta VALUES(2, "Ana Cardoso", "Rua da Cima, n.º 34", "4800-015", 280485912, DATE('1995-05-20'), 3);
-INSERT INTO Atleta VALUES(3, "Maria Cristina Salgado", "Rua Damião de Góis, n.º 3, 3.º esq.", "4700-028", 280485912, DATE('1999-01-22'), 1);
-INSERT INTO Atleta VALUES(4, "António Martins", "Rua da Liberdade, n.º 45", "4700-028", 280485912, DATE('1999-12-31'), 12);
+INSERT INTO Atleta VALUES(3, "Maria Cristina Salgado", "Rua Damião de Góis, n.º 3, 3.º esq.", "4700-028", 280483612, DATE('1999-01-22'), 1);
+INSERT INTO Atleta VALUES(4, "António Martins", "Rua da Liberdade, n.º 45", "4700-028", 280455212, DATE('1999-12-31'), 12);
 INSERT INTO Atleta VALUES(5, "Fernanda Vieira", "Avenida da Paz, n.º 100", "4000-005", 282385912, DATE('2000-07-10'), 6);
 INSERT INTO Atleta VALUES(6, "Vanessa Martins", "Rua da Boa Hora, n.º 1", "4990-038", 134385912, DATE('1997-10-14'), 13);
 INSERT INTO Atleta VALUES(7, "Ronaldo Almeida", "Avenida de Braga, n.º 45", "4700-028", 28049812, DATE('1998-02-28'), 9);
@@ -59,7 +58,6 @@ INSERT INTO Atleta VALUES(17, "Camilo Vieira", "Avenida da Boa Nova, n.º 19", "
 INSERT INTO Atleta VALUES(18, "Fátima Lima", "Avenida General Humberto Delgado, n.º 53", "4700-028", 21203885, DATE('2000-01-01'), 1);
 INSERT INTO Atleta VALUES(19, "Valter Carvalho", "Rua dos Mártires, n.º 1920", "5000-109", 29303885, DATE('1998-06-30'), 8);
 INSERT INTO Atleta VALUES(20, "Paula Braga", "Avenida Conde Margaride, n.º 124", "4900-100", 115703885, DATE('1996-04-01'), 10);
-
 
 
 INSERT INTO Teste VALUES(1, "eletrocardiograma", 1.35, 0.7);
